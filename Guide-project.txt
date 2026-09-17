@@ -1,0 +1,44 @@
+ Libraries:
+ 1 - Icons:
+  lucide-react
+
+    use method:
+      import { Github, Linkedin, Mail } from "lucide-react";
+
+ 2 - Animations:
+    Motion
+     
+    use Method:
+      import { motion } from "motion/react";
+
+      Use in:
+        Hero animation
+        Scroll animation
+        Project cards
+        Navbar
+        Skills animation
+
+  3 - Typing Animations:
+        react-type-animation
+
+        use Method:
+          npm install react-type-animation
+
+          How use:
+             import { TypeAnimation } from "react-type-animation";
+
+              <TypeAnimation
+                sequence={[
+                  "Frontend Developer",
+                  2000,
+                  "React Developer",
+                  2000,
+                  "Next.js Developer",
+                  2000,
+                ]}
+                repeat={Infinity}
+              />
+
+  4 - Dark/Light Mode:
+        next-theme
+        
